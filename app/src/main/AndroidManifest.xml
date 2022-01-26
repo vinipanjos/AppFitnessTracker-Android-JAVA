@@ -11,14 +11,18 @@
         android:theme="@style/AppTheme">
         <activity
             android:name=".ListCalcActivity"
-            android:exported="false" />
+            android:parentActivityName=".MainActivity">
+            <meta-data android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity"/>
+        </activity>
         <activity
             android:name=".TmbActivity"
             android:exported="false" />
         <activity
             android:name=".ImcActivity"
             android:exported="false" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

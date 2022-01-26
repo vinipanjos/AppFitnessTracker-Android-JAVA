@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="tmb_lifestyle">
+        <item>Homem</item>
+        <item>Mulher</item>
+    </string-array>
+</resources>
