@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FitnessTracker</string>
+    <string name="label_imc">IMC - Indice de massa corporal</string>
+    <string name="label_tmb">TMB - Taxa metabolica basal</string>
+    <string name="imc_desc">IMC é a sigla para Índice de Massa Corporal que serve para avaliar
+    o peso do indivíduo em relação à sua altura e assim indicar se está no peso ideal, acima ou
+    abaixo do peso indicado. \n \nPreencha os campos de Peso e Altura para descobrir o IMC.</string>
+    <string name="tmb_desc">A Taxa Metabólica Basal (TMB) é o mínimo de energia necessária para
+    manter as funções do organismo em repouso, como os batimentos cardíacos, a pressão arterial,
+    a respiração e a manutenção da temperatura corporal.
+    \n \nPreencha os campos de Peso, Altura, Sexo e Idade para descobrir o seu TMB.</string>
+    <string name="weight">Peso (Kg)</string>
+    <string name="height">Altura (Cm)</string>
+    <string name="calc">Calcular !</string>
+    <string name="fields_messages">Todos os campos devem ser preenchidos corretamente !</string>
+
+    <string name="imc_low_weight">Apresenta estado de magreza.</string>
+    <string name="imc_normal">Apresenta peso normal.</string>
+    <string name="imc_high_weight">Apresenta estado de sobrepeso.</string>
+    <string name="imc_so_high_weight">Apresenta estado de obesidade..</string>
+    <string name="imc_severely_high_weight">Apresenta estado de obesidade grave.</string>
+
+    <string name="tmb_result">Seu TMB minimo é %1$.2f</string>
+
+    <string name="imc_response">IMC: %1$.2f</string>
+    <string name="list_response">Resultado: %1$.2f, data: %2$s</string>
+    <string name="age">Idade</string>
+    <string name="sexo">Digite 1 para masculino e 2 para feminino</string>
+    <string name="save">Salvar</string>
+    <string name="saved">O registro foi salvo com sucesso.</string>
+    <string name="search">Buscar</string>
+
+</resources>
